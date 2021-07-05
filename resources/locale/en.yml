@@ -1,0 +1,22 @@
+flarum-ext-cookieconsent:
+  admin:
+    ga: Google Analytics Code
+    gadesc: Put here your G.A. code like "UA-XXXXX-Y"
+    linktopp: Cookie Policy URL
+    linktoppdesc: paste here the URL of your cookie policy
+    pub: Adsense Pub Code
+    pubdesc: Add your Adsense publisher code (e.g. ca-pub-xxxxxxxxxxxxxxxx)
+  forum:
+    title: This website use Cookies!
+    moreinfo: Read More
+    cookietoaccept: Allow only these cookie
+    necessarycookie: Mandatory
+    necessarycookietooltip: These cookies are essential for the functioning of the site
+    cookietext: This site uses cookies, by accepting you will provide your consent to use them. Cookies can be managed from the appropriate menu below.
+    managecookies: Manage Cookies
+    acceptcookies: I Agree...
+    adsensecookiedesc: These cookies are related to Google Adsense advertising
+    adsense: Google Adsense
+    ganalyticsdesc: These cookies are related to Google Analytics
+    analyticslabel: Google Analytics
+

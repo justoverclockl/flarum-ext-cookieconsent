@@ -1,0 +1,267 @@
+:root {
+  --purple: @primary-color;
+  --red: #f8a007
+}
+
+#gdpr-cookie-message {
+  position: fixed;
+  z-index: 99999;
+  right: 30px;
+  bottom: 30px;
+  max-width: 375px;
+  background-color: var(--purple);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, .25);
+  margin-left: 30px;
+  font-family: system-ui
+}
+
+#gdpr-cookie-message h4 {
+  color: var(--red);
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px
+}
+
+#gdpr-cookie-message h5 {
+  color: var(--red);
+  font-family: 'Quicksand', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 10px
+}
+
+#gdpr-cookie-message p,
+#gdpr-cookie-message ul {
+  color: #fff;
+  font-size: 15px;
+  line-height: 1.5em
+}
+
+#gdpr-cookie-message p:last-child {
+  margin-bottom: 0;
+  text-align: right
+}
+
+#gdpr-cookie-message li {
+  width: 49%;
+  display: inline-block
+}
+
+#gdpr-cookie-message a {
+  color: var(--red);
+  text-decoration: none;
+  font-size: 15px;
+  padding-bottom: 2px;
+  border-bottom: 1px dotted rgba(255, 255, 255, .75);
+  transition: all .3s ease-in
+}
+
+#gdpr-cookie-message a:hover {
+  color: #fff;
+  border-bottom-color: var(--red);
+  transition: all .3s ease-in
+}
+
+#gdpr-cookie-message button {
+  border: none;
+  background: var(--red);
+  color: #fff;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 15px;
+  padding: 7px;
+  border-radius: 3px;
+  margin-left: 15px;
+  cursor: pointer;
+  transition: all .3s ease-in
+}
+
+#gdpr-cookie-message button:hover {
+  background: #fff;
+  color: var(--red);
+  transition: all .3s ease-in
+}
+
+button#gdpr-cookie-advanced {
+  background: #fff;
+  color: var(--red)
+}
+
+#gdpr-cookie-message button:disabled {
+  opacity: .3
+}
+
+#gdpr-cookie-message input[type="checkbox"] {
+  float: none;
+  margin-top: 0;
+  margin-right: 5px
+}
+#demo_navi {
+  z-index: 99999;
+  position: fixed;
+  top: 0;
+  height: 50px;
+  width: 100%;
+  background: url(http://www.rudebox.org.ua/demo/popup-window-notification-about-accepting-cookies/demo/images/bar_bg.jpg.pagespeed.ce.e9cLeA1f3j.jpg);
+  border-bottom: 1px solid #0d0d0d;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, .2)
+}
+
+#demo_navi a {
+  text-decoration: none
+}
+
+#demo_navi .logo {
+  white-space: nowrap;
+  background: url(http://www.rudebox.org.ua/demo/popup-window-notification-about-accepting-cookies/demo/images/logo_add.png.pagespeed.ce.OmEsw3fZsD.png) no-repeat;
+  font-size: 30px;
+  padding: 0 0 0 70px;
+  line-height: 50px;
+  color: #eee;
+  text-shadow: 0 1px 1px #000;
+  float: left;
+  font-family: "Pontano Sans", Helvetica
+}
+
+#demo_navi .demo {
+  font-size: 12px;
+  font-family: "Pontano Sans", Helvetica;
+  padding: 0 6px 0 4px;
+  line-height: 20px;
+  margin-bottom: 13px;
+  color: #eee;
+  text-shadow: 0 1px 0 #000;
+  float: left
+}
+
+#demo_navi .name {
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 18px;
+  padding: 0 20px 0 0;
+  line-height: 48px;
+  color: #eee;
+  text-shadow: 0 1px 0 #000;
+  float: right;
+  font-family: "Pontano Sans", Helvetica
+}
+
+#controls {
+  position: fixed;
+  top: 120px;
+  left: .9em;
+  z-index: 10;
+  background: #fff;
+  padding: 1em 1em;
+  opacity: .7;
+  border-top: solid .4em #444;
+  border-bottom: solid .4em #444
+}
+
+#controls label {
+  display: block;
+  margin: 1em 0
+}
+
+#controls label span {
+  display: inline-block;
+  min-width: 3.5em
+}
+
+#controls label input {
+  font-family: 'Montserrat';
+  font-size: 12pt;
+  padding-bottom: .2em;
+  width: 10em;
+  border: none;
+  border-bottom: solid 1px #999;
+  color: #000;
+  outline: none;
+  webkit-appearance: none
+}
+
+#controls p {
+  text-align: right;
+  font-size: 80%;
+  margin: 1em 0 .5em 0
+}
+
+#controls p.error {
+  color: #b00
+}
+
+.close {
+  background-color: rgba(47, 47, 47, .9);
+  height: 24px;
+  line-height: 24px;
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: rgba(255, 255, 255, .9);
+  font-size: 14px;
+  top: 0;
+  width: 24px
+}
+
+.close:hover {
+  background-color: rgba(195, 228, 37, 1)
+}
+
+a.small {
+  font-size: 12px
+}
+
+a.medium {
+  font-size: 14px
+}
+
+a.big {
+  font-size: 18px
+}
+
+a.otherbuttons {
+  display: inline-block;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  padding: 8px 12px;
+  background: -moz-linear-gradient(top, #6b6b6b 0%, #242424);
+  background: -webkit-gradient(linear, left top, left bottom, from(#6b6b6b), to(#242424));
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border: 1px solid #000;
+  -moz-box-shadow: 0 1px 3px rgba(000, 000, 000, .5), inset 0 0 1px rgba(255, 255, 255, .7);
+  -webkit-box-shadow: 0 1px 3px rgba(000, 000, 000, .5), inset 0 0 1px rgba(255, 255, 255, .7);
+  text-shadow: 0 -1px 0 rgba(000, 000, 000, .4), 0 1px 0 rgba(255, 255, 255, .3);
+  margin: 10px 5px
+}
+
+a.greenotherb:hover {
+  background: -moz-linear-gradient(top, #bbd624 0%, #689425);
+  background: -webkit-gradient(linear, left top, left bottom, from(#bbd624), to(#689425));
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border: 1px solid #507d15;
+  -moz-box-shadow: 0 1px 3px rgba(000, 000, 000, .5), inset 0 0 1px rgba(255, 255, 255, .7);
+  -webkit-box-shadow: 0 1px 3px rgba(000, 000, 000, .5), inset 0 0 1px rgba(255, 255, 255, .7);
+  text-shadow: 0 -1px 0 rgba(000, 000, 000, .2), 0 1px 0 rgba(255, 255, 255, .3)
+}
+
+a.redotherb:hover {
+  background: -moz-linear-gradient(top, #f03554 0%, #942538);
+  background: -webkit-gradient(linear, left top, left bottom, from(#f03554), to(#942538));
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border: 1px solid #7d1515;
+  -moz-box-shadow: 0 1px 3px rgba(000, 000, 000, .5), inset 0 0 1px rgba(255, 255, 255, .7);
+  -webkit-box-shadow: 0 1px 3px rgba(000, 000, 000, .5), inset 0 0 1px rgba(255, 255, 255, .7);
+  text-shadow: 0 -1px 0 rgba(000, 000, 000, .2), 0 1px 0 rgba(255, 255, 255, .3)
+}

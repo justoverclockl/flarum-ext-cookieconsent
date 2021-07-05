@@ -1,0 +1,41 @@
+{
+  "name": "justoverclock/flarum-ext-cookieconsent",
+  "description": "Add a cookie consent for GDPR to flarum",
+  "keywords": [
+    "flarum"
+  ],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "require": {
+    "flarum/core": "^1.0.0"
+  },
+  "require-dev": {
+    "flarum/testing": "^1.0.0"
+  },
+  "authors": [
+    {
+      "name": "Marco Colia",
+      "email": "info@flarum.it",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Justoverclock\\CookieConsent\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "CookieConsent",
+      "category": "",
+      "icon": {
+        "name": "fas fa-cookie-bite",
+        "backgroundColor": "red",
+        "color": "white"
+      }
+    },
+    "flagrow": {
+      "discuss": ""
+    }
+  }
+}
