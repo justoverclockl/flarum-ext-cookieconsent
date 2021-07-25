@@ -4,6 +4,8 @@
 
 A [Flarum](http://flarum.org) extension. Add a cookie consent for GDPR to flarum
 
+![JrEDPJTKXX](https://user-images.githubusercontent.com/79002016/126913785-50d246e0-0445-4339-9122-6015d338fdb8.gif)
+
 ### Installation
 
 Install with composer:
